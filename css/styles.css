@@ -55,3 +55,56 @@ h1:hover{
 [lang|="en"]{background-color:rosybrown
 
 }
+body{
+    padding:10px;
+  }
+  .an-table{
+   border-width: 1px;
+   border-color: black;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 200px;
+   margin-right: 200px;
+  
+   
+  }
+  .an-table th{
+    border-width: 1px;
+    border-color: rgb(63, 62, 62);
+    padding:10px; 
+    text-align:center;
+   }
+  
+   .an-table td{
+    border-color: red;
+    padding:10px;
+    border-width:1px ;
+    border-color: rgb(157, 155, 155);
+   }
+   .an-table tbody .tbody:hover{
+    border-color: red;
+    padding:10px;
+    border-width:1px ;
+    border-color: rgb(157, 155, 155);
+    background-color:rgb(230, 235, 243) ;
+   }
+   .an-table thead .thead{
+    
+    background-color:rgb(160, 157, 157) ;
+    
+   }
+  
+   .an-table thead .thead:hover{
+    background-color:rgb(146, 145, 145) ;
+   }
+  
+   .class-h1{
+     padding:10px;
+     text-align:center;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+  [type="submit"] {
+    width: 100px;
+    height:30px;
+    text-align: center; 
+  }
+  
