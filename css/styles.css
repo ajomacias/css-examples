@@ -1,0 +1,57 @@
+*¨{
+    margin-top: 0;  
+    padding: 0;
+}
+h1{
+    color: rgb(19, 28, 32);
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h1:hover{
+    color: rgb(50, 58, 61);
+    font-size: 12px;
+    background-color: rgb(75, 224, 174);
+}
+.btn-ander{
+    background-color:rgb(72, 195, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    height:20px;
+    width: 100px;
+}
+.btn-ander:hover{
+    background-color:rgba(48, 201, 240, 0.938)
+}
+.form-ander{
+    background-color:black;
+    height:400px;
+    width: 400px;
+    background-position: 100px,100px;
+}
+/* Selectores de atributos */
+[href]{
+    background-color:blue;
+    color:black;
+}
+
+[href="https://web.whatsapp.com/"]{
+    background-color:green;
+    color:white
+}
+/* Verifica la primera palabra */
+[href^="#q"]{
+    background-color:red
+
+}
+/* Verifica si existe la palabra no importa la posicicion  */
+[href*="whatsapp"]{
+    background-color:black;
+}
+/* Verifica la ultima palabra */
+[href$="q"]{
+    background-color: white;
+}
+[lang|="en"]{background-color:rosybrown
+
+}
