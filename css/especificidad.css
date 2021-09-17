@@ -1,0 +1,21 @@
+/*
+Etiqueta=1
+Clase=10
+id=100
+*/
+/*1mer lugar de jerarquia*/
+h1.title#title{                    /*Valor= etuiqueta+clase+id*/
+    background-color: blue;      /*Valor= 111*/
+}
+/*Utimo lugar*/
+h1{                           
+    background-color: aqua;
+}
+/*3cer lugar de jerarquia*/    
+.title{                           /*Valor=10*/
+    background-color:rgb(165, 42, 42);
+}
+/*2do lugar de jerarquia*/
+#title{                      /*Valor=100*/
+    background-color:rgb(2, 33, 33);
+}
