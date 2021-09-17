@@ -2,7 +2,10 @@
 Etiqueta=1
 Clase=10
 id=100
+estilo en linea= 1000;
+!important= Le gana a todos Nunca usar
 */
+
 /*1mer lugar de jerarquia*/
 h1.title#title{                    /*Valor= etuiqueta+clase+id*/
     background-color: blue;      /*Valor= 111*/
@@ -19,3 +22,5 @@ h1{
 #title{                      /*Valor=100*/
     background-color:rgb(2, 33, 33);
 }
+
+/*Siempre usar clases para no tener problemas de especificidad*/
