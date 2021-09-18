@@ -1,20 +1,4 @@
-body{
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-.block{
-    background-color:blue;
-    
-    margin-right: 100px;
-}
-.inline{
-    color: inherit;
-    background-color:green;
-    width: 1000px;
-    height:100px;
-}
+
 /*Margin
 
 margin-top:lado superior
@@ -29,3 +13,33 @@ del reloj.
 2 valores -> margin: top/bottom left/right
 1 valores -> margin: top/right/bottom/left
 */
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.block{
+    background-color:blue;
+    height:200px;
+    width:200px;
+    margin-left: auto; /*Para mover el bloque hacia el lado que desee orizontal*/
+    margin-left: 100px;
+}
+/*Los elementos elementos en linea solo tienen margenes a los lados*/
+.inline{
+    color: inherit;
+    background-color:green;
+    margin-right: 10px;  /*Margenes orizontales si sirven*/
+    margin-left:10px;
+    margin-top: 100px;   /*Los margenes verticales no funcionan para elementos en linea*/
+}
+
+.title {
+    background-color:gray;
+    width:200px;
+    margin-left:auto;    /*Si damos margin auto a los lados nos centra el bloque*/
+    margin-right:auto;
+}
+
