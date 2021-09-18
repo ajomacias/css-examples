@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.block{
+    background-color:blue;
+    
+    margin-right: 100px;
+}
+.inline{
+    color: inherit;
+    background-color:green;
+    width: 1000px;
+    height:100px;
+}
+/*Margin
+
+margin-top:lado superior
+margin-left: Lado izquierdo
+margin-right: Lado derecho
+margin-bottom: Lado inderior
+
+Admite 4 valores que fincionan como las manesillas
+del reloj.
+4 valores -> margin: top right bottom left
+3 valores -> margin: top right/left bottom
+2 valores -> margin: top/bottom left/right
+1 valores -> margin: top/right/bottom/left
+*/
