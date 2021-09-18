@@ -18,14 +18,13 @@ body{
     background-color: black;
     color: white;
     margin: 0;
-    padding: 0;
 }
 .block{
     background-color:blue;
     height:200px;
     width:200px;
     margin-left: auto; /*Para mover el bloque hacia el lado que desee orizontal*/
-    margin-left: 100px;
+    
 }
 /*Los elementos elementos en linea solo tienen margenes a los lados*/
 .inline{
@@ -43,3 +42,16 @@ body{
     margin-right:auto;
 }
 
+/*Malas practicas padding*/
+
+*{
+    padding: 0px;  /*Estos es mala prectica ya que le estamos dando un valor 0 a todos nuestros elementos*/
+    margin: 0;
+}
+
+.mala-practica{
+    margin: 0 auto;       /*Usar esto para centrar un bloque es mala practica ya que resete nuestros valores padding asignados anteriormente*/
+    background: rgb(174, 24, 24); 
+    height:40px;
+    width:40px;
+}
