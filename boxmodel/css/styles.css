@@ -43,15 +43,67 @@ body{
 }
 
 /*Malas practicas padding*/
-
+/*
 *{
-    padding: 0px;  /*Estos es mala prectica ya que le estamos dando un valor 0 a todos nuestros elementos*/
+    padding: 0px;  Estos es mala prectica ya que le estamos dando un valor 0 a todos nuestros elementos
     margin: 0;
 }
+*/
 
 .mala-practica{
-    margin: 0 auto;       /*Usar esto para centrar un bloque es mala practica ya que resete nuestros valores padding asignados anteriormente*/
+   /* margin: 0 auto;       Usar esto para centrar un bloque es mala practica ya que resete nuestros valores padding asignados anteriormente*/
     background: rgb(174, 24, 24); 
     height:40px;
     width:40px;
 }
+
+/*padding*/
+.block2{
+    background-color:blue;
+    height:200px;
+    width:200px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.title2 {
+    background-color:gray;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width:max-content;
+}
+
+.inline2{
+    color: inherit;
+    background-color:green;
+    margin-right: 10px;  /*Margenes orizontales si sirven*/
+    margin-top: 100px;   /*Los margenes verticales no funcionan para elementos en linea*/
+}
+
+/*
+Border
+border-width: define el ancho del borde
+border-style: define el estilo del borde
+border-color: define el color del borde
+*/
+.block3{
+    background-color:blue;
+    height:200px;
+    width:200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:white;
+}
+.title3 {
+    background-color:gray;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width:max-content;
+}
+
+.inline3{
+    color: inherit;
+    background-color:green;
+    margin-right: 10px;  /*Margenes orizontales si sirven*/
+    margin-top: 100px;   /*Los margenes verticales no funcionan para elementos en linea*/
+}
+
